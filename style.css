@@ -4,3 +4,118 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 205, 0);
+}
+
+header{
+height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFFFFF;
+    padding-left: 75px;
+    justify-content: flex-start;
+}
+
+header span{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #86481c;
+}
+ 
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main button{
+    height: 100px;
+    width: 411px;
+    background-color: #86481c;
+    border: 0;
+
+
+}
+
+main span{
+    font-family: "Righteous", sans-serif;
+    width: 221px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+
+.texto-opacidade{
+    font-family: "Righteous", sans-serif;
+    width: 1462px;
+    width: 497px;
+    top: 88px;
+    left: -11px;
+    font-weight: 400;
+    font-size: 400px;
+    line-height: 100%;
+    color: #FFFFFF33;
+
+
+
+}
+
+.texto-principal{
+    font-family: "Righteous", sans-serif;
+    width: 1096px;
+    height: 373px;
+    top: 263px;
+    left: 172px;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 100%;
+    color: #FFFFFF;
+    
+}
+
+.content-text{
+    font-family: "Righteous", sans-serif;
+    color: #86481c;
+    font-size: 64px;
+    width: 530px;
+    text-align: center;
+}
+.text-pikachu{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    color: #86481c;
+    font-size: 20px;
+    width: 489px;
+    height: 75px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.content-image{
+    width: 559px;
+    height: 541px;
+    top: 292px;
+    left: 440px;
+
+}
+
+footer{
+    font-family: "Righteous", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #86481c;
+}
